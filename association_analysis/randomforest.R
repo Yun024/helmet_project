@@ -1,13 +1,11 @@
 ## #기초환경설치
 ### package설치 (caret, dplyr, randomForest, ggplot2)
-
 install.packages("caret")
 install.packages("dplyr")
 install.packages("randomForest")
 install.packages("ggplot2")
 
 ### library 불러오기
-
 library(caret)
 library(dplyr)
 library(randomForest)
