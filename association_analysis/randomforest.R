@@ -1,38 +1,26 @@
-# randomforest_README
-
 ## #기초환경설치
 ### package설치 (caret, dplyr, randomForest, ggplot2)
 
-```c 
-
 install.packages("caret")
-    
 install.packages("dplyr")
-    
 install.packages("randomForest")
-    
 install.packages("ggplot2")
-```
 
 ### library 불러오기
 
-```c
 library(caret)
 library(dplyr)
 library(randomForest)
 library(ggplot2)
-```
 ---------------------------------------------
 ---------------------------------------------
 ---------------------------------------------
-## #기초 전처리
+
+### 기초 전처리
 
 ### 원본데이터 불러오기
-+ 코드를 실행하여 첨부한 원본데이터 (가해자차종 또는 피해자차종이 이륜차인 교통사고 정보(2015~2019년).csv)를 불러오기
-```c
+#코드를 실행하여 첨부한 원본데이터 (가해자차종 또는 피해자차종이 이륜차인 교통사고 정보(2015~2019년).csv)를 불러오기
 data <- read.csv(file.choose())
-```
-
 
 ### 필요한 변수 선택
 + select()를 통해 원본데이터에서 사용할 변수들만 뽑아오기.
